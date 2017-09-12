@@ -1,0 +1,55 @@
+@import url("http://fonts.googleapis.com/css?family=Press+Start+2P");
+#reMenu {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    background: black;
+}
+
+#reMenu {background: transparent;}
+
+h1, p, a {
+    position: relative;
+    z-index: 1;
+    font: 72px "Press Start 2P", cursive;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+a{
+    font-size : 16px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    left: 0;
+}
+
+h1 {margin-top: 5%;}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+
+a#restart{
+    font-size: 24px;
+    display: block;
+    width: 120px;
+    top: 30%;
+    left: 0;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+a#restart {width: 165px; top: 20%}
+
+
+#info,#score {padding : 0;}
